@@ -35,3 +35,6 @@ if __name__ == "__main__":
     print(f"L1 Block Hash: {block_hash}")
 
     print("\n✅ Commitment anchored to L1 — soundness ensured")
+start = time.time()
+block = w3.eth.get_block(block_number)
+print("RPC time:", time.time() - start)
