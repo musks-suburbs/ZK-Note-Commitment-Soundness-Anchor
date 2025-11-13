@@ -35,3 +35,4 @@ if __name__ == "__main__":
     print(f"L1 Block Hash: {block_hash}")
 
     print("\n✅ Commitment anchored to L1 — soundness ensured")
+print("Note data:", TEST_DATA)
